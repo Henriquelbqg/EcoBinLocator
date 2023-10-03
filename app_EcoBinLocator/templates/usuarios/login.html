@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBin Locator</title>
+    <style>
+        /* estilo.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #51c779;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Lalezar, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#ecobin-logo {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 150px;
+    margin-top: 30px; /* Separar o texto do elemento abaixo */
+}
+
+
+#cadastro{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 150px;
+    margin-top: 5px; /* Separar o texto do elemento abaixo */
+}
+
+
+
+
+
+#box2 {
+    background: white;
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 20px;
+    width: 400px; /* Largura do retângulo */
+    height: 30px; /* Altura do retângulo */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.614);
+    margin-top: 60px; /* Espaço entre o texto e a caixa */
+}
+
+#box4{
+    background: white;
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 20px;
+    width: 400px; /* Largura do retângulo */
+    height: 30px; /* Altura do retângulo */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.614);
+    margin-top: 1px; /* Espaço entre o texto e a caixa */
+}
+
+
+#box3 {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 30px;
+  }
+  
+#box3:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+#box3:active {
+    transform: translateY(-1px);
+  }
+
+
+#usuario {
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#criar_conta {
+    margin-top: 50px; /* Adjust the margin to control spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    font-size: 20px;
+    color: white; /* Set the color of the link to white */
+    text-decoration: none; /* Remove underline from the link */
+    border-bottom: 1px solid transparent; /* Add a transparent bottom border */
+    transition: border-color 0.1s ease; /* Smooth transition for the border color */
+        
+}
+
+a:hover {
+    border-color: white; /* Change the border color to white on hover */
+}
+
+form {
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <header id="ecobin-logo">
+        EcoBin Locator
+    </header>
+    <h1 id="cadastro">Login</h1>
+
+    <form action="{% url 'pagina_home' %}" method="POST">{% csrf_token %}
+        <input id="box4" type="email" placeholder="Email..." name="email" class="form-control-sm">
+        <br>
+        <input id="box2" type="password" placeholder="Senha..." name="senha" class="form-control-sm">
+        <br>
+        <input id="box3" type="submit" value="Login" class="form-control-sm">
+        <br>
+    </form>
+    <form action="{% url 'pagina_cadastro' %}">
+        <p id="criar_conta"><a href="{% url 'pagina_cadastro' %}">Não possui conta? Cadastre-se aqui!</a></p>
+    </form>
+    
+    
+    
+</body>
+</html>

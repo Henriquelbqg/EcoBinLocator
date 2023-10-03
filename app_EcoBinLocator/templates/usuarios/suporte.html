@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    background-color: #b6ecc8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Lalezar, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 90px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #51c779;
+    text-align: center;
+    padding: 30px; /* Increase the padding to increase the header height */
+    font-size: 50px;
+    color: white;
+}
+
+h1 {
+    color: rgb(52, 57, 53);
+    font-size: 60px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 150px;
+    margin-top: 60px;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.input-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the input fields */
+.input {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin: 10px;
+}
+
+.input:hover,
+.input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgba(74, 157, 236, 0.2);
+    background-color: white;
+}
+
+#escreva {
+    width: 400px;
+    height: 200px;
+    text-align: initial;
+    overflow-y: auto; /* Enable vertical scrolling when needed */
+}
+
+#escreva::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px; /* Adjust padding as needed */
+    color: #777; /* Adjust the color to match your design */
+}
+
+#enviar {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 30px;
+  }
+  
+#enviar:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+#enviar:active {
+    transform: translateY(-1px);
+  }
+    </style>
+    <title>Suporte</title>
+</head>
+<body>
+    <header>EcoBinLocator</header>
+    <h1>Suporte</h1>
+    <form action=" {% url 'pagina_suporte' %}" method="POST" style="text-align: center;">{% csrf_token %}
+        <input class="input" id="escreva" name="sup" placeholder="Escreva aqui..." class="form-control-sm">
+        <br>
+        <input id="enviar" type="submit" value="Enviar"  class="form-control-sm">
+    </form>
+</body>
+</html>
