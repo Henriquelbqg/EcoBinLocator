@@ -65,6 +65,13 @@ https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
 
 ### Screencast
 
+
+
+https://github.com/hlobo0/EcoBinLocator/assets/133917236/d4b270b1-663c-4892-b81f-44c228c97278
+
+
+Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
+
 ### Diagrama de atividades
 
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/190c0f1b-4f48-4712-b602-bcef0d8ede0c)
