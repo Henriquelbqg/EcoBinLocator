@@ -54,11 +54,12 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/d3ff2836-35d1-4de1-81f7
 ### Quadro do Jira
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/263d307d-6fde-40a4-a6b4-6d78cb434346)
 
-### Link do Jira
-https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
-
 ### Storyboard
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/9a846843-7e90-4bde-8d1f-5106450d6e04)
+
+### Link do Jira
+
+https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
 
 ## 2ª Entrega ☑️
 
