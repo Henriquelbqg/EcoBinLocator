@@ -87,3 +87,6 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 ### Relato da programção em par: 
 
 > A prática do pair programming tem sido uma verdadeira descoberta para nossa equipe, proporcionando uma experiência excepcionalmente positiva. Podemos afirmar que operar dessa maneira tem impulsionado nosso progresso de forma notável. Ao colaborarmos em duplas, conseguimos criar um código mais organizado, eficaz e de maior qualidade. Além disso, a constante troca de ideias nos permite compartilhar conhecimento e aprender uns com os outros, o que fortalece nossa coesão como equipe e aprimora nossas habilidades de trabalho em grupo. Como resultado, identificamos problemas e suas soluções de maneira mais ágil, o que torna o processo de desenvolvimento mais eficiente, uma vez que podemos contar com o apoio mútuo ao longo do caminho. Ao dividir as tarefas em grupos de duas pessoas, conseguimos explorar nossas especialidades individuais, tornando nossa equipe mais diversificada e preparada para enfrentar uma ampla gama de desafios.
+
+
+## 3ª Entrega ☑️
