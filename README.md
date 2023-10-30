@@ -91,6 +91,22 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 ## 3ª Entrega ☑️
 
+## Storyboard das novas histórias:
+
+![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/ce25ebb8-1d96-4a61-98be-3dc829845d3c)
+
+## Screencast 1
+
+paste here
+
+## Diagrama de atividades atulizado:
+
+paste here
+
+## Screencast 2
+
+paste here
+
 ## Relato atualizado da programação em par:
 
 > Desde a última entrega, nossa equipe aprimorou significativamente nossa prática de pair programming. A descoberta mais notável foi a capacidade de identificar e registrar bugs de maneira mais eficaz, permitindo-nos enfrentar desafios de forma colaborativa e eficiente. Ao operarmos em duplas, fortalecemos nosso entendimento coletivo, aprimoramos nossas habilidades de resolução de problemas e exploramos nossas especialidades individuais, tornando-nos mais preparados para uma ampla gama de desafios no desenvolvimento de software. Essa abordagem intensiva e colaborativa tem sido fundamental para nosso progresso contínuo e sucesso na entrega de projetos de alta qualidade.
