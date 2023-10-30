@@ -99,7 +99,11 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 paste here
 
-## Diagrama de atividades atulizado:
+## Quadro do Sprint
+
+paste here
+
+## Diagrama de atividades atualizado:
 
 paste here
 
