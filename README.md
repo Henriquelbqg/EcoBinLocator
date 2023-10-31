@@ -110,6 +110,8 @@ paste here
 
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/09723873-a451-4ceb-9042-ecf2e2802bec)
 
+![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/678efae5-2dbb-4ac3-9ab4-0497b75e0b02)
+
 
 ### Diagrama de atividades atualizado:
 
