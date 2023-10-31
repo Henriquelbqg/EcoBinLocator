@@ -99,7 +99,9 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 ### Bug Tracker:
 
-![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/3b672485-5323-4cdd-947b-0992cc57ae11)
+![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/d4bddce9-5660-462f-9a9c-af5fe9d26c59)
+
+![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/76c4c3cb-ae9d-4eda-99cf-607e66ca28e8)
 
 
 ### Screencast LO-FI novas histórias:
