@@ -99,6 +99,11 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 paste here
 
+## Bug Tracker:
+
+![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/3b672485-5323-4cdd-947b-0992cc57ae11)
+
+
 ## Screencast 1
 
 paste here
