@@ -105,7 +105,8 @@ paste here
 
 ## Diagrama de atividades atualizado:
 
-paste here
+![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/245a0122-68b5-4af2-a238-0e66f4853784)
+
 
 ## Screencast 2
 
