@@ -106,9 +106,10 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 paste here
 
-### Quadro do Sprint
+### Quadro da nova Sprint:
 
-paste here
+![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/09723873-a451-4ceb-9042-ecf2e2802bec)
+
 
 ### Diagrama de atividades atualizado:
 
