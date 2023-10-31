@@ -39,6 +39,12 @@ Avaliação e Monitoramento: Métricas claras são estabelecidas para avaliar o 
 
 > Feedback: Compartilhe suas ideias, sugestões e relatórios de bugs para aprimorar o projeto.
 
+## Links importantes:
+
+Figma: https://www.figma.com/file/YJTYkEbaOmj2o94Uow1JxW/Telas3%C2%AAEntrega?type=design&node-id=0-1&mode=design&t=Nf8E2XBYBLMbNxPB-0
+
+Jira: https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
+
 ## 1ª Entrega ☑️
 
 ### Screencast 
@@ -56,10 +62,6 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/d3ff2836-35d1-4de1-81f7
 
 ### Storyboard
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/9a846843-7e90-4bde-8d1f-5106450d6e04)
-
-### Link do Jira
-
-https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
 
 ## 2ª Entrega ☑️
 
@@ -95,16 +97,12 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/ce25ebb8-1d96-4a61-98be-3dc829845d3c)
 
-## Link Figma:
-
-paste here
-
 ## Bug Tracker:
 
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/3b672485-5323-4cdd-947b-0992cc57ae11)
 
 
-## Screencast 1
+## Screencast do Protótipo LO-FI:
 
 paste here
 
