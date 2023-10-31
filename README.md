@@ -95,6 +95,10 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/ce25ebb8-1d96-4a61-98be-3dc829845d3c)
 
+## Link Figma:
+
+paste here
+
 ## Screencast 1
 
 paste here
