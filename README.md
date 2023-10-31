@@ -93,32 +93,32 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 ## 3ª Entrega ☑️
 
-## Storyboard das novas histórias:
+### Storyboard das novas histórias:
 
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/ce25ebb8-1d96-4a61-98be-3dc829845d3c)
 
-## Bug Tracker:
+### Bug Tracker:
 
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/3b672485-5323-4cdd-947b-0992cc57ae11)
 
 
-## Screencast do Protótipo LO-FI:
+### Screencast do Protótipo LO-FI:
 
 paste here
 
-## Quadro do Sprint
+### Quadro do Sprint
 
 paste here
 
-## Diagrama de atividades atualizado:
+### Diagrama de atividades atualizado:
 
 ![image](https://github.com/hlobo0/EcoBinLocator/assets/133917236/245a0122-68b5-4af2-a238-0e66f4853784)
 
 
-## Screencast 2
+### Screencast 2
 
 paste here
 
-## Relato atualizado da programação em par:
+### Relato atualizado da programação em par:
 
 > Desde a última entrega, nossa equipe aprimorou significativamente nossa prática de pair programming. A descoberta mais notável foi a capacidade de identificar e registrar bugs de maneira mais eficaz, permitindo-nos enfrentar desafios de forma colaborativa e eficiente. Ao operarmos em duplas, fortalecemos nosso entendimento coletivo, aprimoramos nossas habilidades de resolução de problemas e exploramos nossas especialidades individuais, tornando-nos mais preparados para uma ampla gama de desafios no desenvolvimento de software. Essa abordagem intensiva e colaborativa tem sido fundamental para nosso progresso contínuo e sucesso na entrega de projetos de alta qualidade.
