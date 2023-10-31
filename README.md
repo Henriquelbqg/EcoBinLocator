@@ -106,7 +106,11 @@ Obs: A qualidade foi reduzida para o video caber nos 10MB que o github limita.
 
 ### Screencast LO-FI novas histórias:
 
-paste here
+
+
+https://github.com/hlobo0/EcoBinLocator/assets/133917236/34f2cafa-1a0e-4353-bd1f-a8de9b7dff68
+
+
 
 ### Quadro da nova Sprint:
 
