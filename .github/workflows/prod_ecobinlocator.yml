@@ -47,7 +47,6 @@ jobs:
           name: python-app
           path: |
             Projeto_EcoBinLocator
-            release.zip
             !venv/
 
   deploy:
@@ -62,11 +61,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: python-app
-
-      - name: Unzip artifact for deployment
-        run: |
-          ls
-          unzip release.zip
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
