@@ -22,6 +22,13 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Cleaning testing files
+        run: |
+          cd Projeto_EcoBinLocator/
+          rm db.sqlite3
+          rm .env
+          cd ..
+
       - name: Create and start virtual environment
         run: |
           python -m venv venv
@@ -30,15 +37,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r Projeto_EcoBinLocator/requirements.txt
 
-      - name: Cleaning testing files
-        run: |
-          cd Projeto_EcoBinLocator/
-          rm db.sqlite3
-          rm .env
-          cd ..
-
       - name: Upload artifact for deployment jobs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: python-app
           path: |
