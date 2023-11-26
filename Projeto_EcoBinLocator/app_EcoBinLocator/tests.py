@@ -18,20 +18,13 @@ chrome_options.add_argument("--disable-gpu")
 browser = webdriver.Chrome(options=chrome_options)
 
 
-<<<<<<< HEAD
 wait = WebDriverWait(browser, 10)
 
 ## create a random username
-=======
->>>>>>> f33cf1485e56aa27b1d647215623e6ce25d8a233
 username = ''.join(random.choices(string.ascii_lowercase, k=8))
 password = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 
 class TestSignupLogin(TestCase):
-    
-
-<<<<<<< HEAD
-=======
     def test_b_endereco(self):
         browser.get("http://127.0.0.1:8000/endereco/")
         time.sleep(2)
@@ -98,7 +91,6 @@ class TestSignupLogin(TestCase):
         time.sleep(5)
         assert browser.current_url == "http://127.0.0.1:8000/home/"
 
->>>>>>> f33cf1485e56aa27b1d647215623e6ce25d8a233
 
     
     def test_g_checklist(self):
