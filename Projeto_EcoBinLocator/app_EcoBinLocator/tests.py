@@ -104,7 +104,6 @@ class TestSignupLogin(TestCase):
 
     
     def test_g_checklist(self):
-        browser.get
         browser.get("http://127.0.0.1:8000/checklist/")
         time.sleep(3)
         browser.find_element(By.ID, "cbx1").click()
@@ -116,3 +115,4 @@ class TestSignupLogin(TestCase):
         browser.find_element(By.ID, "cbx4").click()
         time.sleep(3)
         browser.find_element(By.ID, "cbx5").click()
+        assert browser.current_url == "http://127.0.0.1:8000/home/"
