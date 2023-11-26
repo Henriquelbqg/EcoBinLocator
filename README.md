@@ -36,6 +36,8 @@ Rodrigo Lucena Cavalcanti -> rlc2@cesar.school
 
 ### Jira: https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
 
+### Azure: paste here
+
 ## 1ª Entrega ☑️
 
 ### Screencast 
