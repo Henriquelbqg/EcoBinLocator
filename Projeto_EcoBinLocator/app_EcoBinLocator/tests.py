@@ -14,9 +14,7 @@ chrome_options.add_argument("--disable-gpu")
 browser = webdriver.Chrome(options=chrome_options)
 
 
-## create a random username
 username = ''.join(random.choices(string.ascii_lowercase, k=8))
-## create a random password
 password = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 
 class TestSignupLogin(TestCase):
@@ -45,7 +43,6 @@ class TestSignupLogin(TestCase):
         assert browser.current_url == "http://127.0.0.1:8000/home/"
     
     
-    # Seus testes anteriores
 
     def test_d_denuncia(self):
         browser = webdriver.Chrome()
@@ -64,26 +61,20 @@ class TestSignupLogin(TestCase):
             browser.find_element(By.ID, "escreva").send_keys(password)
             time.sleep(4)
 
-            # Crie um arquivo temporário aleatório
             with tempfile.NamedTemporaryFile(delete=False) as temp_file:
                 temp_file.write(b'Some random content')  # Escreva dados aleatórios no arquivo
 
-            # Localize o campo de upload por ID (ou outro localizador apropriado)
             upload_input = browser.find_element(By.ID, "uploadFile")
 
-            # Envie o caminho do arquivo temporário para o campo de upload
             upload_input.send_keys(temp_file.name)
 
-            # Continue com o teste, por exemplo, clicando no botão de envio
             browser.find_element(By.ID, "enviar").click()
             time.sleep(0.5)
             assert browser.current_url == "http://127.0.0.1:8000/home"
             
         finally:
-            # Exclua o arquivo temporário
             os.remove(temp_file.name)
 
-            # Feche o navegador Selenium
             browser.quit()
     
     

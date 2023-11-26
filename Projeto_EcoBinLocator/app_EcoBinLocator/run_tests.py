@@ -12,6 +12,5 @@ if __name__ == "__main__":
         future_server = executor.submit(run_server)
         future_tests = executor.submit(run_tests)
 
-        # Aguarde o término do servidor e dos testes
         future_server.result()
         future_tests.result()
