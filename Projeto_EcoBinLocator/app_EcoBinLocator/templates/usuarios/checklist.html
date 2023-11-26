@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+          body{
+            margin: 0;
+            padding: 0;
+            background-color: #b6ecc8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Lalezar, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #51c779;
+            text-align: center;
+            padding: 30px; /* Increase the padding to increase the header height */
+            font-size: 50px;
+            color: white;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        h1{
+        color: rgb(52, 57, 53);
+        font-size: 60px;
+        text-align: center;
+        padding: 0px;
+        border-radius: 150px;
+        margin-top: 60px;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cbx1 {
+ position: relative;
+ top: 1px;
+ width: 27px;
+ height: 27px;
+ border: 1px solid #000000;
+ border-radius: 3px;
+ vertical-align: middle;
+ transition: background 0.1s ease;
+ cursor: pointer;
+ display: block;
+}
+
+.cbx1:after {
+ content: '';
+ position: absolute;
+ top: 2px;
+ left: 8px;
+ width: 7px;
+ height: 14px;
+ opacity: 0;
+ transform: rotate(45deg) scale(0);
+ border-right: 2px solid #fff;
+ border-bottom: 2px solid #fff;
+ transition: all 0.3s ease;
+ transition-delay: 0.15s;
+}
+
+.lbl {
+ margin-left: 5px;
+ vertical-align: middle;
+ cursor: pointer;
+}
+
+#cbx1:checked ~ .cbx1 {
+ border-color: transparent;
+ background: #6871f1;
+ animation: jelly 0.6s ease;
+}
+
+#cbx1:checked ~ .cbx1:after {
+ opacity: 1;
+ transform: rotate(45deg) scale(1);
+}
+
+.cntr1 {
+ position: relative;
+}
+
+@keyframes jelly {
+ from {
+  transform: scale(1, 1);
+ }
+
+ 30% {
+  transform: scale(1.25, 0.75);
+ }
+
+ 40% {
+  transform: scale(0.75, 1.25);
+ }
+
+ 50% {
+  transform: scale(1.15, 0.85);
+ }
+
+ 65% {
+  transform: scale(0.95, 1.05);
+ }
+
+ 75% {
+  transform: scale(1.05, 0.95);
+ }
+
+ to {
+  transform: scale(1, 1);
+ }
+}
+
+.hidden-xs-up1 {
+ display: none!important;
+}
+
+    .cbx2 {
+ position: relative;
+ top: 1px;
+ width: 27px;
+ height: 27px;
+ border: 1px solid #000000;
+ border-radius: 3px;
+ vertical-align: middle;
+ transition: background 0.1s ease;
+ cursor: pointer;
+ display: block;
+}
+
+.cbx2:after {
+ content: '';
+ position: absolute;
+ top: 2px;
+ left: 8px;
+ width: 7px;
+ height: 14px;
+ opacity: 0;
+ transform: rotate(45deg) scale(0);
+ border-right: 2px solid #fff;
+ border-bottom: 2px solid #fff;
+ transition: all 0.3s ease;
+ transition-delay: 0.15s;
+}
+
+.lbl {
+ margin-left: 5px;
+ vertical-align: middle;
+ cursor: pointer;
+}
+
+#cbx2:checked ~ .cbx2 {
+ border-color: transparent;
+ background: #6871f1;
+ animation: jelly 0.6s ease;
+}
+
+#cbx2:checked ~ .cbx2:after {
+ opacity: 1;
+ transform: rotate(45deg) scale(1);
+}
+
+.cntr2 {
+ position: relative;
+}
+
+@keyframes jelly {
+ from {
+  transform: scale(1, 1);
+ }
+
+ 30% {
+  transform: scale(1.25, 0.75);
+ }
+
+ 40% {
+  transform: scale(0.75, 1.25);
+ }
+
+ 50% {
+  transform: scale(1.15, 0.85);
+ }
+
+ 65% {
+  transform: scale(0.95, 1.05);
+ }
+
+ 75% {
+  transform: scale(1.05, 0.95);
+ }
+
+ to {
+  transform: scale(1, 1);
+ }
+}
+
+.hidden-xs-up2 {
+ display: none!important;
+}
+
+.cbx3{
+ position: relative;
+ top: 1px;
+ width: 27px;
+ height: 27px;
+ border: 1px solid #000000;
+ border-radius: 3px;
+ vertical-align: middle;
+ transition: background 0.1s ease;
+ cursor: pointer;
+ display: block;
+}
+
+.cbx3:after {
+ content: '';
+ position: absolute;
+ top: 2px;
+ left: 8px;
+ width: 7px;
+ height: 14px;
+ opacity: 0;
+ transform: rotate(45deg) scale(0);
+ border-right: 2px solid #fff;
+ border-bottom: 2px solid #fff;
+ transition: all 0.3s ease;
+ transition-delay: 0.15s;
+}
+
+.lbl {
+ margin-left: 5px;
+ vertical-align: middle;
+ cursor: pointer;
+}
+
+#cbx3:checked ~ .cbx3 {
+ border-color: transparent;
+ background: #6871f1;
+ animation: jelly 0.6s ease;
+}
+
+#cbx3:checked ~ .cbx3:after {
+ opacity: 1;
+ transform: rotate(45deg) scale(1);
+}
+
+.cntr3 {
+ position: relative;
+}
+
+@keyframes jelly {
+ from {
+  transform: scale(1, 1);
+ }
+
+ 30% {
+  transform: scale(1.25, 0.75);
+ }
+
+ 40% {
+  transform: scale(0.75, 1.25);
+ }
+
+ 50% {
+  transform: scale(1.15, 0.85);
+ }
+
+ 65% {
+  transform: scale(0.95, 1.05);
+ }
+
+ 75% {
+  transform: scale(1.05, 0.95);
+ }
+
+ to {
+  transform: scale(1, 1);
+ }
+}
+
+.hidden-xs-up3 {
+ display: none!important;
+}
+
+
+.cbx4 {
+ position: relative;
+ top: 1px;
+ width: 27px;
+ height: 27px;
+ border: 1px solid #000000;
+ border-radius: 3px;
+ vertical-align: middle;
+ transition: background 0.1s ease;
+ cursor: pointer;
+ display: block;
+}
+
+.cbx4:after {
+ content: '';
+ position: absolute;
+ top: 2px;
+ left: 8px;
+ width: 7px;
+ height: 14px;
+ opacity: 0;
+ transform: rotate(45deg) scale(0);
+ border-right: 2px solid #fff;
+ border-bottom: 2px solid #fff;
+ transition: all 0.3s ease;
+ transition-delay: 0.15s;
+}
+
+.lbl {
+ margin-left: 5px;
+ vertical-align: middle;
+ cursor: pointer;
+}
+
+#cbx4:checked ~ .cbx4 {
+ border-color: transparent;
+ background: #6871f1;
+ animation: jelly 0.6s ease;
+}
+
+#cbx4:checked ~ .cbx4:after {
+ opacity: 1;
+ transform: rotate(45deg) scale(1);
+}
+
+.cntr4 {
+ position: relative;
+}
+
+@keyframes jelly {
+ from {
+  transform: scale(1, 1);
+ }
+
+ 30% {
+  transform: scale(1.25, 0.75);
+ }
+
+ 40% {
+  transform: scale(0.75, 1.25);
+ }
+
+ 50% {
+  transform: scale(1.15, 0.85);
+ }
+
+ 65% {
+  transform: scale(0.95, 1.05);
+ }
+
+ 75% {
+  transform: scale(1.05, 0.95);
+ }
+
+ to {
+  transform: scale(1, 1);
+ }
+}
+
+.hidden-xs-up4 {
+ display: none!important;
+}
+
+.cbx5 {
+ position: relative;
+ top: 1px;
+ width: 27px;
+ height: 27px;
+ border: 1px solid #000000;
+ border-radius: 3px;
+ vertical-align: middle;
+ transition: background 0.1s ease;
+ cursor: pointer;
+ display: block;
+}
+
+.cbx5:after {
+ content: '';
+ position: absolute;
+ top: 2px;
+ left: 8px;
+ width: 7px;
+ height: 14px;
+ opacity: 0;
+ transform: rotate(45deg) scale(0);
+ border-right: 2px solid #fff;
+ border-bottom: 2px solid #fff;
+ transition: all 0.3s ease;
+ transition-delay: 0.15s;
+}
+
+.lbl {
+ margin-left: 5px;
+ vertical-align: middle;
+ cursor: pointer;
+}
+
+#cbx5:checked ~ .cbx5 {
+ border-color: transparent;
+ background: #6871f1;
+ animation: jelly 0.6s ease;
+}
+
+#cbx5:checked ~ .cbx5:after {
+ opacity: 1;
+ transform: rotate(45deg) scale(1);
+}
+
+.cntr5 {
+ position: relative;
+}
+
+@keyframes jelly {
+ from {
+  transform: scale(1, 1);
+ }
+
+ 30% {
+  transform: scale(1.25, 0.75);
+ }
+
+ 40% {
+  transform: scale(0.75, 1.25);
+ }
+
+ 50% {
+  transform: scale(1.15, 0.85);
+ }
+
+ 65% {
+  transform: scale(0.95, 1.05);
+ }
+
+ 75% {
+  transform: scale(1.05, 0.95);
+ }
+
+ to {
+  transform: scale(1, 1);
+ }
+}
+
+.hidden-xs-up5 {
+ display: none!important;
+}
+
+
+p{
+    width: 505px;
+    color: #634CD9;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        EcoBinLocator
+    </header>
+
+    <h1>Check List Ecológico</h1>
+
+    <div class="cntr1" style="position: absolute; top: 300px; left: 570px;">
+        <input checked="" type="checkbox" id="cbx1" class="hidden-xs-up1">
+        <label for="cbx1" class="cbx1"></label>
+      </div>
+      <p style="top: 285px; left: 40%;"> Redução do Uso de Plástico Descartável </p>
+    
+      <div class="cntr2" style="position: absolute; top: 350px; left: 570px;">
+        <input checked="" type="checkbox" id="cbx2" class="hidden-xs-up2">
+        <label for="cbx2" class="cbx2"></label>
+      </div>
+      <p style="top: 335px; left: 40%;"> Economia de Energia em Casa </p>
+      
+      <div class="cntr3" style="position: absolute; top: 400px; left: 570px;">
+        <input checked="" type="checkbox" id="cbx3" class="hidden-xs-up3">
+        <label for="cbx3" class="cbx3"></label>
+      </div>
+      <p style="top: 385px; left: 40%;"> Reciclagem Adequada </p>
+      
+      <div class="cntr4" style="position: absolute; top: 450px; left: 570px;">
+        <input checked="" type="checkbox" id="cbx4" class="hidden-xs-up4">
+        <label for="cbx4" class="cbx4"></label>
+      </div>
+      <p style="top: 435px; left: 40%;"> Uso Consciente da Água </p>
+      
+      <div class="cntr5" style="position: absolute; top: 500px; left: 570px;">
+        <input checked="" type="checkbox" id="cbx5" class="hidden-xs-up5">
+        <label for="cbx5" class="cbx5"></label>
+      </div>
+      <p style="top: 485px; left: 40%;"> Transporte Sustentável </p>
+    
+</body>
+</html>

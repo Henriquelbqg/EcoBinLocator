@@ -13,6 +13,7 @@ urlpatterns = [
     path('instrucoes/', views.pagina_instrucoes, name='instrucoes'),
     path('endereco/', views.pagina_endereco, name='endereco'),
     path('mapa/', views.pagina_mapa, name='mapa'),
+    path('checklist/', views.pagina_checklist, name='checklist'),
 ] 
 
 if settings.DEBUG:

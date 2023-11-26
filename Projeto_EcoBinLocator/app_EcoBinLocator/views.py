@@ -109,3 +109,8 @@ def pagina_endereco(request):
 def pagina_mapa(request):
     # Coloque aqui o código necessário para renderizar a página de denúncia
     return render(request, 'usuarios/mapa.html')
+
+
+def pagina_checklist(request):
+    # Coloque aqui o código necessário para renderizar a página de denúncia
+    return render(request, 'usuarios/checklist.html')
