@@ -132,7 +132,8 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a
 
 ### Storyboard: 
 
-paste here
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/6c704b5d-477e-4027-9c4a-551f2615a549)
+
 
 ### Print da 3ª sprint do jira:
 
