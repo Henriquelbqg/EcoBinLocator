@@ -6,17 +6,17 @@
 
 ## Colaboradores:
 
-</p>Gabriel Ferreira Ferraz -> gff@cesar.school<p>
+Brandon de Oliveira Hunt -> boh@cesar.school
 
-</p>Brandon de Oliveira Hunt -> boh@cesar.school<p>
+Gabriel Ferreira Ferraz -> gff@cesar.school
 
-</p>Lucas Souto Maior Caldas -> lsmc2@cesar.school<p>
+Henrique Lobo Queiroz Guimarães -> hlqg@cesar.school
 
-</p>Henrique Lobo Queiroz Guimarães -> hlqg@cesar.school<p>
+Lucas Souto Maior Caldas -> lsmc2@cesar.school
 
-</p>Luiz Felipe Soriano Barros -> lfsb@cesar.school<p>
+Luiz Felipe Soriano Barros -> lfsb@cesar.school
 
-</p>Rodrigo Lucena Cavalcanti -> rlc2@cesar.school<p>
+Rodrigo Lucena Cavalcanti -> rlc2@cesar.school
 
 ## Funcionalidades Principais:
 
