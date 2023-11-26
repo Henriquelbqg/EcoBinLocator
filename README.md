@@ -134,6 +134,10 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/6c704b5d-477e-4027-9c4a-551f2615a549)
 
+### Print do Backlog do Jira:
+
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/98fb8b6d-3e1c-4d96-afb3-baf6453dd3df)
+
 
 ### Print da 3ª sprint do jira:
 
@@ -144,6 +148,8 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a
 
 > Desde a última atualização, nossa equipe alcançou avanços significativos na prática de pair programming, aprimorando nossa capacidade de identificar e corrigir bugs de maneira eficaz. Um destaque notável foi nossa habilidade aprimorada em abordar desafios de maneira colaborativa e eficiente. No último mês, concentramos nossos esforços na correção de erros, incorporando as valiosas críticas fornecidas pelo professor. Essa abordagem nos permitiu não apenas corrigir nossos equívocos, mas também fortalecer nosso entendimento coletivo e melhorar nossas habilidades de resolução de problemas.
 
-> Operar em duplas tem sido crucial para nosso progresso contínuo. Ao explorarmos nossas especialidades individuais durante as sessões de pair programming, solidificamos nosso conhecimento técnico e nos tornamos mais preparados para uma variedade de desafios no desenvolvimento de software. A colaboração intensiva não apenas promoveu a eficiência na detecção e resolução de bugs, mas também contribuiu para o sucesso na entrega de projetos de alta qualidade.
+> Operar em duplas tem sido crucial para nosso progresso contínuo. Ao explorarmos nossas especialidades individuais durante as sessões de pair programming, solidificamos nosso conhecimento técnico e nos tornamos mais preparados para uma variedade de desafios no desenvolvimento de software. A colaboração intensiva não apenas promoveu a eficiência na detecção e resolução de bugs, mas também contribuiu para o sucesso nas entregas do nosso projeto.
 
-> É gratificante observar que a programação em Django e Python, que anteriormente representava desafios consideráveis, agora é enfrentada com confiança e familiaridade. Estamos consolidando nossa expertise nessas tecnologias, o que nos permite abordar novos desafios com um nível de conforto que reflete nossa evolução na disciplina.
+> É gratificante observar que a programação em Django e Python, e a criação de HTML's e CSS's, que anteriormente representava desafios consideráveis, agora é enfrentada com confiança e familiaridade. Estamos consolidando nossa expertise nessas tecnologias, o que nos permite abordar novos desafios com um nível de conforto que reflete nossa evolução na disciplina.
+
+> Até mesmo novos desafios como os teste automatizados, que foram um pouco assustadores a principio, conseguiram ser superados com muita pesquisa e aprendizado da nossa parte, além do trabalho em equipe que foi fundamental para a existência do nosso projeto.
