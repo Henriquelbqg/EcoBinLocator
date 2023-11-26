@@ -82,6 +82,10 @@ def pagina_instrucoes(request):
     return render(request, 'usuarios/instrucoes.html')
 
 
+def pagina_produtos(request):
+    return render(request, 'usuarios/produtos.html')
+
+
 def pagina_endereco(request):
     if request.method == 'POST':
         rua = request.POST.get('rua')
