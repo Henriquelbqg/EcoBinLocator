@@ -28,9 +28,7 @@ Rodrigo Lucena Cavalcanti -> rlc2@cesar.school
 > 
 > Campanhas Educacionais: O projeto realiza campanhas educacionais para conscientizar a comunidade sobre os impactos ambientais dos resíduos não gerenciados.
 > 
-> Engajamento Comunitário: Parcerias com grupos locais, escolas e empresas promovem ações de limpeza, programas de reciclagem e eventos educativos.
-> 
-> Avaliação e Monitoramento: Métricas claras são estabelecidas para avaliar o impacto das iniciativas e fazer ajustes conforme necessário.
+> Avaliação e Monitoramento: Métricas claras são estabelecidas para avaliar o impacto das iniciativas e fazer ajustes conforme necessário. Além das denúncias de crimes que poderam ser feitas através da plataforma
 
 ## Links importantes:
 
