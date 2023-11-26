@@ -134,6 +134,14 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/6c704b5d-477e-4027-9c4a-551f2615a549)
 
+### Screencast LO-FI das novas histórias:
+
+
+
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc0-9265-0197b1badd24
+
+
+
 ### Print do Backlog do Jira:
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/98fb8b6d-3e1c-4d96-afb3-baf6453dd3df)
