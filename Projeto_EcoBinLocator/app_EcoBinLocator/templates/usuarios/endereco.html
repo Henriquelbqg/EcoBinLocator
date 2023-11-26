@@ -74,6 +74,14 @@
     <header>
         Formulário de Endereço
     </header>
+    <div style="position: fixed; z-index: 100; left: 2%; top: 4%;">
+        <form action="{% url 'home' %}">
+            <button style="background-color: #23c483;
+            border-radius: 45px;
+            color: #fff;
+            transform: translateY(-7px);">Voltar</button>
+        </form>    
+    </div>
     <div class="container right-padding">
             <form action="{% url 'endereco' %}" method="POST">{% csrf_token %}
                 <div class="input-container">

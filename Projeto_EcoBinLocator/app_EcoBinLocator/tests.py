@@ -18,16 +18,87 @@ chrome_options.add_argument("--disable-gpu")
 browser = webdriver.Chrome(options=chrome_options)
 
 
+<<<<<<< HEAD
 wait = WebDriverWait(browser, 10)
 
 ## create a random username
+=======
+>>>>>>> f33cf1485e56aa27b1d647215623e6ce25d8a233
 username = ''.join(random.choices(string.ascii_lowercase, k=8))
-## create a random password
 password = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 
 class TestSignupLogin(TestCase):
     
 
+<<<<<<< HEAD
+=======
+    def test_b_endereco(self):
+        browser.get("http://127.0.0.1:8000/endereco/")
+        time.sleep(2)
+        browser.find_element(By.ID, "rua").send_keys(password)
+        time.sleep(2)
+        browser.find_element(By.ID, "numero").send_keys(password)
+        time.sleep(2)
+        browser.find_element(By.ID, "botao").click()
+        time.sleep(2)
+        assert browser.current_url == "http://127.0.0.1:8000/home/"
+
+    def test_c_mapa(self):
+        browser.get("http://127.0.0.1:8000/mapa/")
+        time.sleep(5)
+        assert browser.current_url == "http://127.0.0.1:8000/home/"
+    
+    
+
+    def test_d_denuncia(self):
+        browser = webdriver.Chrome()
+        time.sleep(3)
+        try:
+            browser.get("http://127.0.0.1:8000/denuncia/")
+            time.sleep(3)
+            browser.find_element(By.ID, "cidade").send_keys(password)
+            time.sleep(3)
+            browser.find_element(By.ID, "referencia").send_keys(password)
+            time.sleep(3)
+            browser.find_element(By.ID, "rua").send_keys(password)
+            time.sleep(3)
+            browser.find_element(By.ID, "telefone").send_keys(password)
+            time.sleep(3)
+            browser.find_element(By.ID, "escreva").send_keys(password)
+            time.sleep(4)
+
+            with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+                temp_file.write(b'Some random content')  # Escreva dados aleatórios no arquivo
+
+            upload_input = browser.find_element(By.ID, "uploadFile")
+
+            upload_input.send_keys(temp_file.name)
+
+            browser.find_element(By.ID, "enviar").click()
+            time.sleep(0.5)
+            assert browser.current_url == "http://127.0.0.1:8000/home"
+            
+        finally:
+            os.remove(temp_file.name)
+
+            browser.quit()
+    
+    
+    def test_e_suporte(self):
+        browser.get("http://127.0.0.1:8000/suporte/")
+        time.sleep(4)
+        browser.find_element(By.ID, "escreva").send_keys(password)
+        time.sleep(3)
+        browser.find_element(By.ID, "enviar").click()
+        time.sleep(3)
+        assert browser.current_url == "http://127.0.0.1:8000/home/"
+
+    def test_f_instrucoes(self):
+        browser.get("http://127.0.0.1:8000/instrucoes/")
+        time.sleep(5)
+        assert browser.current_url == "http://127.0.0.1:8000/home/"
+
+>>>>>>> f33cf1485e56aa27b1d647215623e6ce25d8a233
 
     
     def test_g_checklist(self):

@@ -32,9 +32,11 @@ Rodrigo Lucena Cavalcanti -> rlc2@cesar.school
 
 ## Links importantes 🔗
 
-### Figma: https://www.figma.com/file/YJTYkEbaOmj2o94Uow1JxW/Telas3%C2%AAEntrega?type=design&node-id=0-1&mode=design&t=Nf8E2XBYBLMbNxPB-0
+### Figma: [https://www.figma.com/file/YJTYkEbaOmj2o94Uow1JxW/Telas3%C2%AAEntrega?type=design&node-id=0-1&mode=design&t=Nf8E2XBYBLMbNxPB-0](https://www.figma.com/files/project/107043831/Team-project?fuid=1283220141462324249)
 
 ### Jira: https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
+
+### Azure: paste here
 
 ## 1ª Entrega ☑️
 
@@ -133,6 +135,14 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a
 ### Storyboard: 
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/6c704b5d-477e-4027-9c4a-551f2615a549)
+
+### Screencast LO-FI das novas histórias:
+
+
+
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc0-9265-0197b1badd24
+
+
 
 ### Print do Backlog do Jira:
 
