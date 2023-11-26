@@ -21,15 +21,10 @@ Rodrigo Lucena Cavalcanti -> rlc2@cesar.school
 ## Funcionalidades Principais:
 
 > Localização de Pontos de Coleta: Os usuários podem facilmente encontrar os locais de coleta seletiva mais próximos de suas localizações.
-
 > Promoção da Reciclagem: O aplicativo oferece informações sobre os tipos de resíduos aceitos em cada ponto de coleta, incentivando a reciclagem apropriada.
-
 > Dicas de Redução de Resíduos: Os usuários recebem dicas práticas para reduzir a quantidade de resíduos gerados em suas rotinas diárias.
-
 > Campanhas Educacionais: O projeto realiza campanhas educacionais para conscientizar a comunidade sobre os impactos ambientais dos resíduos não gerenciados.
-
 > Engajamento Comunitário: Parcerias com grupos locais, escolas e empresas promovem ações de limpeza, programas de reciclagem e eventos educativos.
-
 > Avaliação e Monitoramento: Métricas claras são estabelecidas para avaliar o impacto das iniciativas e fazer ajustes conforme necessário.
 
 ## Links importantes:
