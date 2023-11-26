@@ -130,9 +130,14 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a
 
 ## 4ª Entrega ☑️
 
-### Print da 3ª sprint do jira:
+### Storyboard: 
 
 paste here
+
+### Print da 3ª sprint do jira:
+
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/28ce0751-94f6-4419-8a36-e2552972d6aa)
+
 
 ### Último relato da progrmação em par:
 
