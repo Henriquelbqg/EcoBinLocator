@@ -23,6 +23,11 @@ latitude7 = -8.0669835
 longitude7 = -34.8818142
 latitude8 = -8.1139861
 longitude8 = -35.0238781
+latitude9 = -8.148131349943345
+longitude9 = -34.91370090023957
+latitude10 = -8.023020594266393
+longitude10 = -34.916131419807705
+
 
 coordenadas_lixo1 = [latitude1, longitude1]
 icon1 = folium.CustomIcon(icon_image='imagem_lixo.png', icon_size=(30, 30))
@@ -42,19 +47,27 @@ lixo4 = folium.Marker(coordenadas_lixo4, icon=icon4, popup='R. Gov. Leopoldo Nev
 lixo4.add_to(mapa)
 coordenadas_lixo5 = [latitude5, longitude5]
 icon5 = folium.CustomIcon(icon_image='recycling.png', icon_size=(25, 25))
-lixo5 = folium.Marker(coordenadas_lixo5, icon=icon5, popup='Rua Padre Lemos, 350')
+lixo5 = folium.Marker(coordenadas_lixo5, icon=icon5, popup='R. Padre Lemos, 350')
 lixo5.add_to(mapa)
 coordenadas_lixo6 = [latitude6, longitude6]
 icon6 = folium.CustomIcon(icon_image='recycling.png', icon_size=(25, 25))
-lixo6 = folium.Marker(coordenadas_lixo6, icon=icon6, popup='Rua da Paz, 283')
+lixo6 = folium.Marker(coordenadas_lixo6, icon=icon6, popup='R. da Paz, 283')
 lixo6.add_to(mapa)
 coordenadas_lixo7 = [latitude7, longitude7]
 icon7 = folium.CustomIcon(icon_image='recycling.png', icon_size=(25, 25))
-lixo7 = folium.Marker(coordenadas_lixo7, icon=icon7, popup='Rua da Concórdia, 176')
+lixo7 = folium.Marker(coordenadas_lixo7, icon=icon7, popup='R. da Concórdia, 176')
 lixo7.add_to(mapa)
 coordenadas_lixo8 = [latitude8, longitude8]
 icon8 = folium.CustomIcon(icon_image='recycling.png', icon_size=(25, 25))
-lixo8 = folium.Marker(coordenadas_lixo8, icon=icon8, popup='Avenida Barão de Lucena, 593 ')
+lixo8 = folium.Marker(coordenadas_lixo8, icon=icon8, popup='Av. Barão de Lucena, 593 ')
 lixo8.add_to(mapa)
+coordenadas_lixo9 = [latitude9, longitude9]
+icon9 = folium.CustomIcon(icon_image='lixo_quimico.png', icon_size=(25, 25))
+lixo9 = folium.Marker(coordenadas_lixo9, icon=icon9, popup='R. Oscár de Barros, 175')
+lixo9.add_to(mapa)
+coordenadas_lixo10 = [latitude10, longitude10]
+icon10 = folium.CustomIcon(icon_image='lixo_quimico.png', icon_size=(25, 25))
+lixo10 = folium.Marker(coordenadas_lixo10, icon=icon10, popup='R. Arthur Bruno Schwambach')
+lixo10.add_to(mapa)
 mapa.save('mapa.html')
 webbrowser.open('mapa.html')

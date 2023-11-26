@@ -93,6 +93,9 @@ body {
         <form action="{% url 'instrucoes' %}" method="POST">{% csrf_token %}
         <input id="botao5" name="botao" type="submit" value="Instrucoes de descarte" class="form-control-sm">
         </form>
+        <form action="{% url 'checklist' %}">
+            <input type="submit" id="botao6" name="botao" value="Checklist" class="form-control-sm">
+        </form>
     </div>
 </body>
 </html>
