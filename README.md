@@ -30,11 +30,11 @@ Rodrigo Lucena Cavalcanti -> rlc2@cesar.school
 > 
 > Avaliação e Monitoramento: Métricas claras são estabelecidas para avaliar o impacto das iniciativas e fazer ajustes conforme necessário. Além das denúncias de crimes que poderam ser feitas através da plataforma
 
-## Links importantes:
+## Links importantes 🔗
 
-Figma: https://www.figma.com/file/YJTYkEbaOmj2o94Uow1JxW/Telas3%C2%AAEntrega?type=design&node-id=0-1&mode=design&t=Nf8E2XBYBLMbNxPB-0
+#### Figma: https://www.figma.com/file/YJTYkEbaOmj2o94Uow1JxW/Telas3%C2%AAEntrega?type=design&node-id=0-1&mode=design&t=Nf8E2XBYBLMbNxPB-0
 
-Jira: https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
+#### Jira: https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
 
 ## 1ª Entrega ☑️
 
