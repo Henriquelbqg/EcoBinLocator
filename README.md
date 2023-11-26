@@ -21,23 +21,16 @@ Rodrigo Lucena Cavalcanti -> rlc2@cesar.school
 ## Funcionalidades Principais:
 
 > Localização de Pontos de Coleta: Os usuários podem facilmente encontrar os locais de coleta seletiva mais próximos de suas localizações.
-Promoção da Reciclagem: O aplicativo oferece informações sobre os tipos de resíduos aceitos em cada ponto de coleta, incentivando a reciclagem apropriada.
-Dicas de Redução de Resíduos: Os usuários recebem dicas práticas para reduzir a quantidade de resíduos gerados em suas rotinas diárias.
-Campanhas Educacionais: O projeto realiza campanhas educacionais para conscientizar a comunidade sobre os impactos ambientais dos resíduos não gerenciados.
-Engajamento Comunitário: Parcerias com grupos locais, escolas e empresas promovem ações de limpeza, programas de reciclagem e eventos educativos.
-Avaliação e Monitoramento: Métricas claras são estabelecidas para avaliar o impacto das iniciativas e fazer ajustes conforme necessário.
 
-> Como Contribuir: Este projeto é aberto a contribuições da comunidade interessada em tornar nossa cidade mais sustentável. Se você é desenvolvedor, designer, educador ou tem um interesse genuíno na causa, sinta-se à vontade para contribuir de várias maneiras:
+> Promoção da Reciclagem: O aplicativo oferece informações sobre os tipos de resíduos aceitos em cada ponto de coleta, incentivando a reciclagem apropriada.
 
-> Desenvolvimento de Software: Contribua para o desenvolvimento contínuo do aplicativo EcoBinLocator.
+> Dicas de Redução de Resíduos: Os usuários recebem dicas práticas para reduzir a quantidade de resíduos gerados em suas rotinas diárias.
 
-> Design: Ajude a melhorar a usabilidade e o design da aplicação.
+> Campanhas Educacionais: O projeto realiza campanhas educacionais para conscientizar a comunidade sobre os impactos ambientais dos resíduos não gerenciados.
 
-> Educação e Sensibilização: Colabore na criação de materiais educativos e campanhas de conscientização.
+> Engajamento Comunitário: Parcerias com grupos locais, escolas e empresas promovem ações de limpeza, programas de reciclagem e eventos educativos.
 
-> Engajamento Comunitário: Participe das ações de limpeza, programas de reciclagem e eventos educativos.
-
-> Feedback: Compartilhe suas ideias, sugestões e relatórios de bugs para aprimorar o projeto.
+> Avaliação e Monitoramento: Métricas claras são estabelecidas para avaliar o impacto das iniciativas e fazer ajustes conforme necessário.
 
 ## Links importantes:
 
