@@ -32,9 +32,9 @@ Rodrigo Lucena Cavalcanti -> rlc2@cesar.school
 
 ## Links importantes 🔗
 
-#### Figma: https://www.figma.com/file/YJTYkEbaOmj2o94Uow1JxW/Telas3%C2%AAEntrega?type=design&node-id=0-1&mode=design&t=Nf8E2XBYBLMbNxPB-0
+### Figma: https://www.figma.com/file/YJTYkEbaOmj2o94Uow1JxW/Telas3%C2%AAEntrega?type=design&node-id=0-1&mode=design&t=Nf8E2XBYBLMbNxPB-0
 
-#### Jira: https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
+### Jira: https://econbinlocator.atlassian.net/jira/software/projects/EC/boards/3
 
 ## 1ª Entrega ☑️
 
