@@ -135,3 +135,18 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a
 ### Relato atualizado da programação em par:
 
 > Desde a última entrega, nossa equipe aprimorou significativamente nossa prática de pair programming. A descoberta mais notável foi a capacidade de identificar e registrar bugs de maneira mais eficaz, permitindo-nos enfrentar desafios de forma colaborativa e eficiente. Ao operarmos em duplas, fortalecemos nosso entendimento coletivo, aprimoramos nossas habilidades de resolução de problemas e exploramos nossas especialidades individuais, tornando-nos mais preparados para uma ampla gama de desafios no desenvolvimento de software. Essa abordagem intensiva e colaborativa tem sido fundamental para nosso progresso contínuo e sucesso na entrega de projetos de alta qualidade.
+
+
+## 4ª Entrega ☑️
+
+### Print da 3ª sprint do jira:
+
+paste here
+
+### Último relato da progrmação em par:
+
+> Desde a última atualização, nossa equipe alcançou avanços significativos na prática de pair programming, aprimorando nossa capacidade de identificar e corrigir bugs de maneira eficaz. Um destaque notável foi nossa habilidade aprimorada em abordar desafios de maneira colaborativa e eficiente. No último mês, concentramos nossos esforços na correção de erros, incorporando as valiosas críticas fornecidas pelo professor. Essa abordagem nos permitiu não apenas corrigir nossos equívocos, mas também fortalecer nosso entendimento coletivo e melhorar nossas habilidades de resolução de problemas.
+
+> Operar em duplas tem sido crucial para nosso progresso contínuo. Ao explorarmos nossas especialidades individuais durante as sessões de pair programming, solidificamos nosso conhecimento técnico e nos tornamos mais preparados para uma variedade de desafios no desenvolvimento de software. A colaboração intensiva não apenas promoveu a eficiência na detecção e resolução de bugs, mas também contribuiu para o sucesso na entrega de projetos de alta qualidade.
+
+> É gratificante observar que a programação em Django e Python, que anteriormente representava desafios consideráveis, agora é enfrentada com confiança e familiaridade. Estamos consolidando nossa expertise nessas tecnologias, o que nos permite abordar novos desafios com um nível de conforto que reflete nossa evolução na disciplina.
