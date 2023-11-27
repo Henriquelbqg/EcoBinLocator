@@ -6,142 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denúncia</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body{
-            margin: 0;
-            padding: 0;
-            background-color: #b6ecc8;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: 'Lalezar', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
-        }
-
-        header {
-            width: 100%;
-            background-color: #51c779;
-            padding: 20px 0;
-            text-align: center;
-            font-size: 4vw;
-            color: white;
-            position: fixed;
-            top: 0;
-            z-index: 10;
-        }
-
-        body {
-            padding-top: 150px; /* Height of the header plus some extra space */
-        }
-
-        .content-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 15px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        .product-div {
-            width: 100%;
-            max-width: 400px;
-            margin: 10px;
-            border-radius: 20px;
-            border: 5px solid #634CD9;
-            background: #FFF;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .product-div p {
-            font-family: 'Inter', sans-serif;
-            font-size: 1em;
-            font-weight: 700;
-            text-align: center;
-            padding: 10px;
-            margin: 10px 0;
-        }
-
-        .product-div img {
-            width: 100%;
-            height: auto;
-        }
-
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            margin: 20px 0;
-        }
-
-        @media (max-width: 768px) {
-            header {
-                font-size: 5vw;
-            }
-
-            .product-div p {
-                font-size: 0.8em;
-            }
-
-            h1 {
-                font-size: 1.5em;
-            }
-        }
+    margin: 0;
+    padding: 0;
+    background-color: #b6ecc8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Lalezar, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #51c779;
+    text-align: center;/* Increase the padding to increase the header height */
+    font-size: 50px;
+    color: white;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+}
+#p1{
+    font-size: 50px;
+    color: white;
+}
+/* Add margin to the body content to avoid overlap with the fixed header */
+body {
+    margin-top: 90px; /* Adjust as needed based on your header height */
+}
+#div{
+    width: 408px;
+    height: 322px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 5px solid #634CD9;
+    background: #FFF;
+    position: absolute;
+}
+#p2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+}
     </style>
 </head>
 <body>
-    <header>EcoBinLocator</header>
+    <header></header>
     <div style="position: fixed; z-index: 100; left: 2%; top: 4%;">
         <form action="{% url 'home' %}">
             <button style="background-color: #23c483;
             border-radius: 45px;
             color: #fff;
             transform: translateY(-7px);">Voltar</button>
-        </form>    
+        </form>
     </div>
-    <div class="content-container">
-        <h1>Produtos substituíveis na rotina</h1>
-        <div class="flex-container">
-            <div class="product-div">
-                <p>Canudos</p>
-                <p> - Substitua canudos de plástico por canudos de metal</p>
-                <img src="{% static 'canudo.png' %}" alt="" style="width: 20%; position: absolute; top: 150px; left: 50px;">
-                <img src="{% static 'canudo_metal.png' %}" alt="" style="width: 40%; position: absolute; top: 135px; right: 20px;">
-                <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
-            </div>
-            
-            <div class="product-div">
-                <p>Escovas</p>
-                <p> - Substitua escovas de plástico por escovas de bambu</p>
-                <img src="{% static 'escova.png' %}" alt="" style="width: 30%; position: absolute; top: 190px; left: 30px;">
-                <img src="{% static 'escovabambu.webp '%}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
-                <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
-            </div>
-            
-            <div class="product-div">
-                <p>Sacolas</p>
-                <p> - Substitua sacolas plásticas por sacolas reutilizáveis</p>
-                <img src="{% static 'sacola.png' %}" alt="" style="width: 30%; position: absolute; top: 170px; left: 30px;">
-                <img src="{% static 'sacola2.png' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
-                <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
-            </div>
-            
-            <div class="product-div">
-                <p>Lâmpadas</p>
-                <p> - Substitua lâmpadas tradicionais por lâmpadas de LED</p>
-                <img src="{% static 'lampada.png' %}" alt="" style="width: 17%; position: absolute; top: 140px; left: 30px;">
-                <img src="{% static 'led.jpg' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
-                <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
-            </div>
-        </div>
+    <p id="p1" style="position: absolute; left: 405; transform: translateX(-50%); top: 5%; transform: translateY(-50%);">EcoBinLocator</p>
+    <h1 style="position: absolute; top: 200px; left: 50%; transform: translateX(-50%);">Produtos substituíveis na rotina</h1>
+
+    <div id="div" style="top: 300px; left: 250px;">
+        <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
+        <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua canudos de plástico por canudos de metal</p>
+        <img src="{% static 'canudo.png' %}" alt="" style="width: 20%; position: absolute; top: 150px; left: 50px;">
+        <img src="{% static 'canudo_metal.png' %}" alt="" style="width: 40%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+    </div>
+
+
+    <div id="div" style="top: 300px; right: 250px;">
+        <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
+        <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua escovas de plástico por escovas de bambu</p>
+        <img src="{% static 'canudo.png' %}" alt="" style="width: 20%; position: absolute; top: 150px; left: 50px;">
+        <img src="{% static 'canudo_metal.png' %}" alt="" style="width: 40%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+    </div>
+
+
+    <div id="div" style="top: 700px; right: 250px;">
+        <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
+        <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua sacolas plásticas por sacolas reutilizáveis</p>
+        <img src="{% static 'escova.png' %}" alt="" style="width: 30%; position: absolute; top: 190px; left: 30px;">
+        <img src="{% static 'escovabambu.webp' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+    </div>
+
+
+    <div id="div" style="top: 700px; left: 250px;">
+        <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
+        <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua lâmpadas tradicionais por lâmpadas de LED</p>
+        <img src="{% static 'sacola.png' %}" alt="" style="width: 30%; position: absolute; top: 170px; left: 30px;">
+        <img src="{% static 'sacola2.png' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
     </div>
 </body>
 </html>
