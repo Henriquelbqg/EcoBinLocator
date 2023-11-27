@@ -174,8 +174,7 @@ paste here
 
 
 
-https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/54355888-2aca-44e3-8576-0dea366094a0
-
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/5f99bd17-6e50-4f2c-95f8-695491dfdbc6
 
 
 ### Último relato da progrmação em par:
