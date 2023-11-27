@@ -15,6 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--headless")
 browser = webdriver.Chrome(options=chrome_options)
 
 
