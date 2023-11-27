@@ -37,7 +37,7 @@ class TestSignupLogin(TestCase):
 
     def test_c_mapa(self):
         browser.get("http://127.0.0.1:8000/mapa/")
-        time.sleep(5)
+        time.sleep(10)
         assert browser.current_url == "http://127.0.0.1:8000/home/"
     
     
@@ -74,7 +74,7 @@ class TestSignupLogin(TestCase):
     
     def test_e_suporte(self):
         browser.get("http://127.0.0.1:8000/suporte/")
-        time.sleep(4)
+        time.sleep(5)
         browser.find_element(By.ID, "escreva").send_keys(password)
         time.sleep(3)
         browser.find_element(By.ID, "enviar").click()
@@ -83,7 +83,7 @@ class TestSignupLogin(TestCase):
 
     def test_f_instrucoes(self):
         browser.get("http://127.0.0.1:8000/instrucoes/")
-        time.sleep(5)
+        time.sleep(10)
         assert browser.current_url == "http://127.0.0.1:8000/home/"
     
 
@@ -106,5 +106,5 @@ class TestSignupLogin(TestCase):
 
     def test_h_produtos(self):
         browser.get("http://127.0.0.1:8000/produtos/")
-        time.sleep(5)
+        time.sleep(10)
         assert browser.current_url == "http://127.0.0.1:8000/home/"

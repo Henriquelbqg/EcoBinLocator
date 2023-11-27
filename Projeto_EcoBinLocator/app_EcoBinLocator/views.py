@@ -21,7 +21,7 @@ def pagina_login(request):
         else:
             messages.error (request, 'Email ou senha incorretos')
             return redirect('home')
-    return render(request, 'usuarios/login.html')
+    return render(request, 'login.html')
 
 
 def pagina_cadastro(request):
@@ -36,13 +36,13 @@ def pagina_cadastro(request):
         
         
 
-    return render(request, 'usuarios/cadastro.html')
+    return render(request, 'cadastro.html')
 
 
 
 
 def pagina_home(request):
-    return render(request, 'usuarios/home.html')
+    return render(request, 'home.html')
 
 
 def pagina_denuncia(request):
@@ -65,7 +65,7 @@ def pagina_denuncia(request):
         nova_denuncia.save()
 
         return redirect('home')
-    return render(request, 'usuarios/denuncia.html')
+    return render(request, 'denuncia.html')
 
 
 def pagina_suporte(request):
@@ -75,15 +75,15 @@ def pagina_suporte(request):
         novo_sup = suporte(sup=sup)
         novo_sup.save()
         return redirect('home')
-    return render(request, 'usuarios/suporte.html')
+    return render(request, 'suporte.html')
 
 
 def pagina_instrucoes(request):
-    return render(request, 'usuarios/instrucoes.html')
+    return render(request, 'instrucoes.html')
 
 
 def pagina_produtos(request):
-    return render(request, 'usuarios/produtos.html')
+    return render(request, 'produtos.html')
 
 
 def pagina_endereco(request):
@@ -95,12 +95,12 @@ def pagina_endereco(request):
         novo_end.save()
         
         return redirect('home')
-    return render(request, 'usuarios/endereco.html')
+    return render(request, 'endereco.html')
 
 
 def pagina_mapa(request):
-    return render(request, 'usuarios/mapa.html')
+    return render(request, 'mapa.html')
 
 
 def pagina_checklist(request):
-    return render(request, 'usuarios/checklist.html')
+    return render(request, 'checklist.html')

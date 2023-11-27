@@ -121,7 +121,11 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/34f2cafa-1a0e-4353-bd1f
 
 
 
-https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a-b1142038f79f
+
+
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0ca201cf-948a-41c0-a6a1-7e58eeaa0601
+
+
 
 
 
@@ -157,6 +161,14 @@ https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/355ff3a8-9324-4168-b780-c009303d5b6d)
 
+### Bug Tracker:
+
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/d30d190a-4f67-4cd7-85c2-5c18940f67bb)
+
+
+
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/2ea20e2f-c953-4f47-ba9a-8a72d0860d49)
+
 
 ### Screencast do Deployment das novas histórias:
 
@@ -164,11 +176,18 @@ paste here
 
 ### Screencast dos testes automatizados:
 
-paste here
+
+
+
+
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/43a7ba36-1694-47b0-9e45-3368f1e1585e
+
+
+
 
 ### Último relato da progrmação em par:
 
-> Desde a última atualização, nossa equipe alcançou avanços significativos na prática de pair programming, aprimorando nossa capacidade de identificar e corrigir bugs de maneira eficaz. Um destaque notável foi nossa habilidade aprimorada em abordar desafios de maneira colaborativa e eficiente. No último mês, concentramos nossos esforços na correção de erros, incorporando as valiosas críticas fornecidas pelo professor. Essa abordagem nos permitiu não apenas corrigir nossos equívocos, mas também fortalecer nosso entendimento coletivo e melhorar nossas habilidades de resolução de problemas.
+> Desde a última atualização, nossa equipe alcançou avanços significativos na prática de pair programming, aprimorando nossa capacidade de identificar e corrigir bugs. Um destaque notável foi nossa habilidade aprimorada em abordar desafios de maneira colaborativa e eficiente. No último mês, concentramos nossos esforços na correção de erros, incorporando as valiosas críticas fornecidas pelo professor. Essa abordagem nos permitiu não apenas corrigir nossos equívocos, mas também fortalecer nosso entendimento coletivo e melhorar nossas habilidades de resolução de problemas.
 
 > Operar em duplas tem sido crucial para nosso progresso contínuo. Ao explorarmos nossas especialidades individuais durante as sessões de pair programming, solidificamos nosso conhecimento técnico e nos tornamos mais preparados para uma variedade de desafios no desenvolvimento de software. A colaboração intensiva não apenas promoveu a eficiência na detecção e resolução de bugs, mas também contribuiu para o sucesso nas entregas do nosso projeto.
 
