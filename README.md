@@ -157,6 +157,12 @@ https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/355ff3a8-9324-4168-b780-c009303d5b6d)
 
+### Bug Tracker:
+
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/315ac3b7-abcb-4783-bd3a-94c09d1aff98)
+
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/2ea20e2f-c953-4f47-ba9a-8a72d0860d49)
+
 
 ### Screencast do Deployment das novas histórias:
 
