@@ -153,6 +153,13 @@ https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/28ce0751-94f6-4419-8a36-e2552972d6aa)
 
+### Screencast do Deployment das novas histórias:
+
+paste here
+
+### Screencast dos testes automatizados:
+
+paste here
 
 ### Último relato da progrmação em par:
 
