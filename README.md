@@ -172,7 +172,11 @@ paste here
 
 ### Screencast dos testes automatizados:
 
-paste here
+
+
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/54355888-2aca-44e3-8576-0dea366094a0
+
+
 
 ### Último relato da progrmação em par:
 
