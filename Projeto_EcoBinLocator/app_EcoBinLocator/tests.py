@@ -45,35 +45,31 @@ class TestSignupLogin(TestCase):
     def test_d_denuncia(self):
         browser = webdriver.Chrome()
         time.sleep(3)
-        try:
-            browser.get("http://127.0.0.1:8000/denuncia/")
-            time.sleep(3)
-            browser.find_element(By.ID, "cidade").send_keys(password)
-            time.sleep(3)
-            browser.find_element(By.ID, "referencia").send_keys(password)
-            time.sleep(3)
-            browser.find_element(By.ID, "rua").send_keys(password)
-            time.sleep(3)
-            browser.find_element(By.ID, "telefone").send_keys(password)
-            time.sleep(3)
-            browser.find_element(By.ID, "escreva").send_keys(password)
-            time.sleep(4)
+        browser.get("http://127.0.0.1:8000/denuncia/")
+        time.sleep(3)
+        browser.find_element(By.ID, "cidade").send_keys(password)
+        time.sleep(3)
+        browser.find_element(By.ID, "referencia").send_keys(password)
+        time.sleep(3)
+        browser.find_element(By.ID, "rua").send_keys(password)
+        time.sleep(3)
+        browser.find_element(By.ID, "telefone").send_keys(password)
+        time.sleep(3)
+        browser.find_element(By.ID, "escreva").send_keys(password)
+        time.sleep(4)
 
-            with tempfile.NamedTemporaryFile(delete=False) as temp_file:
-                temp_file.write(b'Some random content')
+        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+            temp_file.write(b'Some random content')
 
-            upload_input = browser.find_element(By.ID, "uploadFile")
+        upload_input = browser.find_element(By.ID, "uploadFile")
 
-            upload_input.send_keys(temp_file.name)
+        upload_input.send_keys(temp_file.name)
 
-            browser.find_element(By.ID, "enviar").click()
-            time.sleep(0.5)
-            assert browser.current_url == "http://127.0.0.1:8000/home"
+        browser.find_element(By.ID, "enviar").click()
+        time.sleep(0.5)
+        assert browser.current_url == "http://127.0.0.1:8000/home"
             
-        finally:
-            os.remove(temp_file.name)
-
-            browser.quit()
+        
     
     
     def test_e_suporte(self):
