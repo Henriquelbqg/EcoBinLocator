@@ -121,7 +121,11 @@ https://github.com/hlobo0/EcoBinLocator/assets/133917236/34f2cafa-1a0e-4353-bd1f
 
 
 
-https://github.com/hlobo0/EcoBinLocator/assets/133917236/4d934ddd-31b5-4761-8d7a-b1142038f79f
+
+
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0ca201cf-948a-41c0-a6a1-7e58eeaa0601
+
+
 
 
 
@@ -172,7 +176,14 @@ paste here
 
 ### Screencast dos testes automatizados:
 
-paste here
+
+
+
+
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/43a7ba36-1694-47b0-9e45-3368f1e1585e
+
+
+
 
 ### Último relato da progrmação em par:
 
