@@ -174,7 +174,7 @@ paste here
 
 ### Último relato da progrmação em par:
 
-> Desde a última atualização, nossa equipe alcançou avanços significativos na prática de pair programming, aprimorando nossa capacidade de identificar e corrigir bugs de maneira eficaz. Um destaque notável foi nossa habilidade aprimorada em abordar desafios de maneira colaborativa e eficiente. No último mês, concentramos nossos esforços na correção de erros, incorporando as valiosas críticas fornecidas pelo professor. Essa abordagem nos permitiu não apenas corrigir nossos equívocos, mas também fortalecer nosso entendimento coletivo e melhorar nossas habilidades de resolução de problemas.
+> Desde a última atualização, nossa equipe alcançou avanços significativos na prática de pair programming, aprimorando nossa capacidade de identificar e corrigir bugs. Um destaque notável foi nossa habilidade aprimorada em abordar desafios de maneira colaborativa e eficiente. No último mês, concentramos nossos esforços na correção de erros, incorporando as valiosas críticas fornecidas pelo professor. Essa abordagem nos permitiu não apenas corrigir nossos equívocos, mas também fortalecer nosso entendimento coletivo e melhorar nossas habilidades de resolução de problemas.
 
 > Operar em duplas tem sido crucial para nosso progresso contínuo. Ao explorarmos nossas especialidades individuais durante as sessões de pair programming, solidificamos nosso conhecimento técnico e nos tornamos mais preparados para uma variedade de desafios no desenvolvimento de software. A colaboração intensiva não apenas promoveu a eficiência na detecção e resolução de bugs, mas também contribuiu para o sucesso nas entregas do nosso projeto.
 
