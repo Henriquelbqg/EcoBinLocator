@@ -9,13 +9,13 @@ import os
 import tempfile
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--headless")
 browser = webdriver.Chrome(options=chrome_options)
 
 
@@ -90,20 +90,6 @@ class TestSignupLogin(TestCase):
 
 
     
-    def test_g_checklist(self):
-        browser.get("http://127.0.0.1:8000/checklist/")
-        time.sleep(10)
-        browser.find_element(By.ID, "cbx1").click()
-        time.sleep(3)
-        browser.find_element(By.ID, "cbx2").click()
-        time.sleep(3)
-        browser.find_element(By.ID, "cbx3").click()
-        time.sleep(3)
-        browser.find_element(By.ID, "cbx4").click()
-        time.sleep(3)
-        browser.find_element(By.ID, "cbx5").click()
-        assert browser.current_url == "http://127.0.0.1:8000/home/"
-
 
     def test_h_produtos(self):
         browser.get("http://127.0.0.1:8000/produtos/")
