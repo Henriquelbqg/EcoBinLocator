@@ -29,13 +29,13 @@ jobs:
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo apt install ./google-chrome-stable_current_amd64.deb
           python -m pip install --upgrade pip
-          pip install -r projeto_EcoBinLocator/requirements.txt
+          pip install -r Projeto_EcoBinLocator/requirements.txt
       - uses: nanasess/setup-chromedriver@v2
       - run: |
           chromedriver --url-base=/wd/hub &
       - name: Run local Server
         run: |
-          cd projeto_EcoBinLocator/
+          cd Projeto_EcoBinLocator/
           python manage.py makemigrations
           sleep 5
           python manage.py migrate
@@ -46,7 +46,7 @@ jobs:
 
       - name: Cleaning testing files
         run: |
-          cd projeto_EcoBinLocator/
+          cd Projeto_EcoBinLocator/
           rm .env
           cd ..
 
