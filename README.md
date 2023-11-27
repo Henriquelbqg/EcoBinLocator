@@ -153,6 +153,11 @@ https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/28ce0751-94f6-4419-8a36-e2552972d6aa)
 
+### Diagrama de atividades atualizado:
+
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/355ff3a8-9324-4168-b780-c009303d5b6d)
+
+
 ### Screencast do Deployment das novas histórias:
 
 paste here
