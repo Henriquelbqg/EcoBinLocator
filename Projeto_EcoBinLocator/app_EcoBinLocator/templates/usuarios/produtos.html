@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
@@ -61,42 +62,50 @@ body {
 </head>
 <body>
     <header></header>
+    <div style="position: fixed; z-index: 100; left: 2%; top: 4%;">
+        <form action="{% url 'home' %}">
+            <button style="background-color: #23c483;
+            border-radius: 45px;
+            color: #fff;
+            transform: translateY(-7px);">Voltar</button>
+        </form>
+    </div>
     <p id="p1" style="position: absolute; left: 405; transform: translateX(-50%); top: 5%; transform: translateY(-50%);">EcoBinLocator</p>
     <h1 style="position: absolute; top: 200px; left: 50%; transform: translateX(-50%);">Produtos substituíveis na rotina</h1>
 
     <div id="div" style="top: 300px; left: 250px;">
         <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
         <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua canudos de plástico por canudos de metal</p>
-        <img src="canudo.png" alt="" style="width: 20%; position: absolute; top: 150px; left: 50px;">
-        <img src="canudo_metal.png" alt="" style="width: 40%; position: absolute; top: 135px; right: 20px;">
-        <img src="reverse.png" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+        <img src="{% static 'canudo.png' %}" alt="" style="width: 20%; position: absolute; top: 150px; left: 50px;">
+        <img src="{% static 'canudo_metal.png' %}" alt="" style="width: 40%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
     </div>
     
     
     <div id="div" style="top: 300px; right: 250px;">
         <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
         <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua escovas de plástico por escovas de bambu</p>
-        <img src="escoova.png" alt="" style="width: 30%; position: absolute; top: 190px; left: 30px;">
-        <img src="escovabambu.webp" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
-        <img src="reverse.png" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+        <img src="{% static 'escova.png' %}" alt="" style="width: 30%; position: absolute; top: 190px; left: 30px;">
+        <img src="{% static 'escovabambu.webp' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
     </div>
     
     
     <div id="div" style="top: 700px; right: 250px;">
         <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
         <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua sacolas plásticas por sacolas reutilizáveis</p>
-        <img src="sacola.png" alt="" style="width: 30%; position: absolute; top: 170px; left: 30px;">
-        <img src="sacola2.png" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
-        <img src="reverse.png" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+        <img src="{% static 'sacola.png' %}" alt="" style="width: 30%; position: absolute; top: 170px; left: 30px;">
+        <img src="{% static 'sacola2.png' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
     </div>
     
     
     <div id="div" style="top: 700px; left: 250px;">
         <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
         <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua lâmpadas tradicionais por lâmpadas de LED</p>
-        <img src="lampada.png" alt="" style="width: 17%; position: absolute; top: 140px; left: 30px;">
-        <img src="led.jpg" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
-        <img src="reverse.png" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+        <img src="{% static 'lampada.png' %}" alt="" style="width: 17%; position: absolute; top: 140px; left: 30px;">
+        <img src="{% static 'led.jpg' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
     </div>
     
 

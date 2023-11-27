@@ -20,7 +20,6 @@ browser = webdriver.Chrome(options=chrome_options)
 
 wait = WebDriverWait(browser, 10)
 
-## create a random username
 username = ''.join(random.choices(string.ascii_lowercase, k=8))
 password = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 
@@ -61,7 +60,7 @@ class TestSignupLogin(TestCase):
             time.sleep(4)
 
             with tempfile.NamedTemporaryFile(delete=False) as temp_file:
-                temp_file.write(b'Some random content')  # Escreva dados aleatórios no arquivo
+                temp_file.write(b'Some random content')
 
             upload_input = browser.find_element(By.ID, "uploadFile")
 
