@@ -159,7 +159,8 @@ https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc
 
 ### Bug Tracker:
 
-![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/7ee5a602-8857-45c3-8b3f-e1b02c913a9d)
+![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/d30d190a-4f67-4cd7-85c2-5c18940f67bb)
+
 
 
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/2ea20e2f-c953-4f47-ba9a-8a72d0860d49)
