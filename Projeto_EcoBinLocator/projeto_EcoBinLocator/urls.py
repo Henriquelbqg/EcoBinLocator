@@ -16,4 +16,7 @@ urlpatterns = [
     path('mapa/', views.pagina_mapa, name='mapa'),
     path('checklist/', views.pagina_checklist, name='checklist'),
     path('produtos/', views.pagina_produtos, name='produtos')
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
