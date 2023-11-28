@@ -44,7 +44,6 @@ class TestSignupLogin(TestCase):
     
 
     def test_d_denuncia(self):
-        browser = webdriver.Chrome()
         time.sleep(3)
         browser.get("http://127.0.0.1:8000/denuncia/")
         time.sleep(3)
