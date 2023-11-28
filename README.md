@@ -175,18 +175,15 @@ https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc
 
 ### Screencast da aplicação das novas histórias:
 
-paste here
+
+
+https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/7a488273-347a-448f-bc62-6b238f9ae422
+
+
 
 ### Screencast dos testes automatizados:
 
-
-
-
-
 https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/43a7ba36-1694-47b0-9e45-3368f1e1585e
-
-
-
 
 ### Último relato da progrmação em par:
 
