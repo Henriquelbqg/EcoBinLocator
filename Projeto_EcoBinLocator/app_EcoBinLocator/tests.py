@@ -12,11 +12,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 
+
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--headless")
 browser = webdriver.Chrome(options=chrome_options)
 
 
@@ -45,7 +45,6 @@ class TestSignupLogin(TestCase):
     
 
     def test_d_denuncia(self):
-        browser = webdriver.Chrome()
         time.sleep(3)
         browser.get("http://127.0.0.1:8000/denuncia/")
         time.sleep(3)
