@@ -173,7 +173,7 @@ https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/0eea2aca-4ebd-4dc
 ![image](https://github.com/Henriquelbqg/EcoBinLocator/assets/133917236/2ea20e2f-c953-4f47-ba9a-8a72d0860d49)
 
 
-### Screencast do Deployment das novas histórias:
+### Screencast da aplicação das novas histórias:
 
 paste here
 
