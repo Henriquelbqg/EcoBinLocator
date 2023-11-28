@@ -4,119 +4,111 @@
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
     <title>Denúncia</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #b6ecc8;
-            font-family: 'Lalezar', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
-            text-align: center;
-            padding-top: 150px; /* espaço para o cabeçalho */
-        }
-        header {
-            width: 100%;
-            background-color: #51c779;
-            font-size: 50px;
-            color: white;
-            height: 150px;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 10;
-        }
-        #p1 {
-            font-size: 50px;
-            color: white;
-            position: fixed;
-            left: 50%;
-            top: 5%;
-            transform: translate(-50%, -50%);
-            z-index: 5;
-        }
-        h1 {
-            margin-top: 60px; /* ajustar conforme necessário */
-        }
-        .info-box {
-            width: 90%;
-            max-width: 408px;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 20px;
-            border: 5px solid #634CD9;
-            background: #FFF;
-            position: relative;
-        }
-        .info-box p {
-            font-family: 'Inter', sans-serif;
-            font-size: 20px;
-            font-weight: 700;
-            margin: 10px 0;
-            text-align: center;
-        }
-        .info-box img {
-            width: 80px; /* ajustar conforme necessário */
-            margin: 10px;
-        }
-        .button-container {
-            position: fixed;
-            z-index: 100;
-            left: 2%;
-            top: 4%;
-        }
-        .button-container button {
-            background-color: #23c483;
-            border-radius: 45px;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
+        body{
+    margin: 0;
+    padding: 0;
+    background-color: #b6ecc8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Lalezar, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #51c779;
+    text-align: center;/* Increase the padding to increase the header height */
+    font-size: 50px;
+    color: white;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+}
+
+#p1{
+    font-size: 50px;
+    color: white;
+}
+/* Add margin to the body content to avoid overlap with the fixed header */
+body {
+    margin-top: 90px; /* Adjust as needed based on your header height */
+}
+
+#div{
+
+    width: 408px;
+    height: 322px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 5px solid #634CD9;
+    background: #FFF;
+    position: absolute;
+}
+
+#p2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+
+}
+
     </style>
 </head>
 <body>
-    <header>EcoBinLocator</header>
-    <p id="p1">EcoBinLocator</p>
-    <div class="button-container">
+    <header></header>
+    <div style="position: fixed; z-index: 100; left: 2%; top: 4%;">
         <form action="{% url 'home' %}">
-            <button>Voltar</button>
+            <button style="background-color: #23c483;
+            border-radius: 45px;
+            color: #fff;
+            transform: translateY(-7px);">Voltar</button>
         </form>
     </div>
-    <h1>Produtos substituíveis na rotina</h1>
+    <p id="p1" style="position: absolute; left: 405; transform: translateX(-50%); top: 5%; transform: translateY(-50%);">EcoBinLocator</p>
+    <h1 style="position: absolute; top: 200px; left: 50%; transform: translateX(-50%);">Produtos substituíveis na rotina</h1>
 
-    <!-- Primeiro quadrado -->
-    <div class="info-box">
-        <p>Canudos</p>
-        <p>- Substitua canudos de plástico por canudos de metal</p>
-        <img src="{% static 'canudo.png' %}" alt="Canudo de plástico">
-        <img src="{% static 'canudo_metal.png' %}" alt="Canudo de metal">
-        <img src="{% static 'reverse.png' %}" alt="Ícone de troca">
+    <div id="div" style="top: 300px; left: 250px;">
+        <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
+        <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua canudos de plástico por canudos de metal</p>
+        <img src="{% static 'canudo.png' %}" alt="" style="width: 20%; position: absolute; top: 150px; left: 50px;">
+        <img src="{% static 'canudo_metal.png' %}" alt="" style="width: 40%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
     </div>
+    
+    
+    <div id="div" style="top: 300px; right: 250px;">
+        <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
+        <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua escovas de plástico por escovas de bambu</p>
+        <img src="{% static 'escova.png' %}" alt="" style="width: 30%; position: absolute; top: 190px; left: 30px;">
+        <img src="{% static 'escovabambu.webp' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+    </div>
+    
+    
+    <div id="div" style="top: 700px; right: 250px;">
+        <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
+        <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua sacolas plásticas por sacolas reutilizáveis</p>
+        <img src="{% static 'sacola.png' %}" alt="" style="width: 30%; position: absolute; top: 170px; left: 30px;">
+        <img src="{% static 'sacola2.png' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+    </div>
+    
+    
+    <div id="div" style="top: 700px; left: 250px;">
+        <p id="p2" style="left: 50%; transform: translateX(-50%);">Canudos</p>
+        <p id="p2" style=" top: 50px; left: 50%; transform: translateX(-50%); width: 400px; text-align: center;"> - Substitua lâmpadas tradicionais por lâmpadas de LED</p>
+        <img src="{% static 'lampada.png' %}" alt="" style="width: 17%; position: absolute; top: 140px; left: 30px;">
+        <img src="{% static 'led.jpg' %}" alt="" style="width: 30%; position: absolute; top: 135px; right: 20px;">
+        <img src="{% static 'reverse.png' %}" alt="" style="width: 20%; position: absolute; top: 165px; left: 50%; transform: translateX(-50%); ">
+    </div>
+    
 
-    <!-- Segundo quadrado -->
-    <div class="info-box">
-        <p>Escovas</p>
-        <p>- Substitua escovas de plástico por escovas de bambu</p>
-        <img src="{% static 'escova.png' %}" alt="Escova de plástico">
-        <img src="{% static 'escovabambu.webp' %}" alt="Escova de bambu">
-        <img src="{% static 'reverse.png' %}" alt="Ícone de troca">
-    </div>
-
-    <!-- Terceiro quadrado -->
-    <div class="info-box">
-        <p>Sacolas</p>
-        <p>- Substitua sacolas plásticas por sacolas reutilizáveis</p>
-        <img src="{% static 'sacola.png' %}" alt="Sacola plástica">
-        <img src="{% static 'sacola2.png' %}" alt="Sacola reutilizável">
-        <img src="{% static 'reverse.png' %}" alt="Ícone de troca">
-    </div>
-
-    <div class="info-box">
-        <p>Canudos</p>
-        <p> - Substitua lâmpadas tradicionais por lâmpadas de LED</p>
-        <img src="{% static 'sacola.png' %}" alt="">
-        <img src="{% static 'sacola2.png' %}" alt="">
-        <img src="{% static 'reverse.png' %}" alt="">
-    </div>
+    
 </body>
 </html>
