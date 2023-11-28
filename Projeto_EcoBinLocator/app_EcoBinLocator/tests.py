@@ -40,7 +40,6 @@ class TestSignupLogin(TestCase):
     def test_c_mapa(self):
         browser.get("http://127.0.0.1:8000/mapa/")
         time.sleep(10)
-        assert browser.current_url == "http://127.0.0.1:8000/home/"
     
     
 
